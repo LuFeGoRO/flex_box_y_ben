@@ -1,0 +1,13 @@
+.barra_de_navegacion_vertical {
+    display: inline-block;
+    width: 10%;
+    line-height: 100%;
+    border: 2px solid black;
+    justify-content: center;
+}
+.barra_de_navegacion__lista_vertical{
+    list-style: none;
+    font-size: 100%;
+    text-align: center;
+}
+

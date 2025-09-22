@@ -4,6 +4,7 @@
     height: 5%;
     border: 2px solid black;
     justify-content: center;
+    background-image: var(--main-color);
 }
 .menu-horizontal {
     display: flex;

@@ -1,0 +1,5 @@
+:root {/*declaro variables de color para su uso*/
+    --main-color: rgb(25, 52, 172);
+    --secundary-color: rgb(37, 37, 179);
+    --terceary-color: rgb(29, 127, 160);
+}

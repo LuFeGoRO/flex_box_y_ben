@@ -1,11 +1,11 @@
 .barra_de_navegacion {
     display: flex;
     width: 100%;
-    height: 5%;
+    height: 7%;
     justify-content: center;
     background-color: var(--main-color);
     color: aliceblue;
-    border-radius: 0px 0px 30px 12px;
+    border-radius: 0.1px 0px 0px 12px;
 }
 .menu-horizontal {
     display: flex;
@@ -27,6 +27,5 @@
     font-size: 100%;
 
 }
-ho
 
 

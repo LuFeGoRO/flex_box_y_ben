@@ -1,0 +1,51 @@
+.targeta{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: max-content;
+    margin-top: 1vh;
+    background-color: var(--hallowen-color);
+    border-radius: 30px;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+.logo__imagen--tamaño{ 
+    width: 10em;
+    height: 15em;
+    filter: drop-shadow(2px 10px 5px rgb(0, 0, 0));
+    
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 30px 0px 30px;
+    font-size: large;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    background-color: var(--secundary-color);
+    padding: 10px;
+    border-radius: 0px 30px 0px 30px;
+}
+.boton__titulo--estilo{
+    color: var(--titulos_h2-color);
+    border: 1px solid rgb(88, 34, 2);
+    border-radius: 12px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: var(--hallowen-color);
+    border: none;
+    padding: 15px;
+    border-radius: 0px 30px 0px 30px;
+}

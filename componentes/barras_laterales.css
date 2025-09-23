@@ -25,4 +25,8 @@
 .barra_de_navegacion_lateral__opciones--text{
     margin-top: 2em;
 }
+.barra_de_navegacion__titulo{
+    font-size: 1.4em;
+    color: var(--titulos_h2-color);
+}
 

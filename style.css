@@ -4,6 +4,7 @@
 @import url(componentes/targetas.css);
 @import url(componentes/galeria.css);
 @import url(componentes/fomularios.css);
+@import url(componentes/encabezado.css);
 *{
     margin: 0;
     padding: 0;
@@ -46,6 +47,16 @@ main {
     height: max-content;
     border: 2px dashed black;
     gap: 0.5em;
+    justify-content: center;
+}
+.seccion_cinco{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: max-content;
+    border: 2px dashed black;
+    gap: 0.5em;
+    justify-content: center;
 }
 
 

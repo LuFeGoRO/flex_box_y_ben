@@ -1,11 +1,12 @@
 .acceso{
     display: flex;
-    justify-content: center;
-    width: 50vw;
+    width: 100vw;
     height: max-content;
-    border: 1px dashed black;
+    border: 2px dashed black;
+    gap: 1em;
 }
 .formulario{
+    
     display: flex;
     flex-direction: column;
     gap: 2em;
@@ -13,10 +14,16 @@
     
 }
 
-.formilario__usuario{
-    padding: 1em;
-
+.formulario__usuario{
+    padding: 10px;
 }
+.formulario__contraceña{
+    padding: 10px;
+}
+.formulario__rango{
+    padding: 5px;
+}
+
 .titulo--fondo{
     background-color: rgb(59, 179, 139);
     color: aliceblue;

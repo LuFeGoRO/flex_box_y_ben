@@ -1,0 +1,13 @@
+.encabezado{
+    display: flex;
+    background-color: var(--main-color);
+    height: max-content;
+    width: 100vw;
+}
+ .encabezado__imagen{
+    width: 2em;
+    height: 2em;
+ }
+ .encabezado__titulo{
+    color: aliceblue;
+ }

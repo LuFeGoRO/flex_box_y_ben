@@ -1,0 +1,20 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: max-content;
+    gap: 1em;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    
+}
+
+.fotos__imagenes{
+    width: 20vw;
+    height: 20vh;
+}

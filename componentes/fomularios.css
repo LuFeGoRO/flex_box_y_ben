@@ -1,0 +1,23 @@
+.acceso{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: max-content;
+    border: 1px dashed black;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1em;
+    
+}
+
+.formilario__usuario{
+    padding: 1em;
+
+}
+.titulo--fondo{
+    background-color: rgb(59, 179, 139);
+    color: aliceblue;
+}

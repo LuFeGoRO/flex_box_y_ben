@@ -2,12 +2,27 @@
     display: inline-block;
     width: 10%;
     line-height: 100%;
-    border: 2px solid black;
     justify-content: center;
+    background-color: var(--secundary-color);
+    border-radius: 0px 0px 0px 10px;
+
 }
 .barra_de_navegacion__lista_vertical{
     list-style: none;
     font-size: 90%;
     text-align: center;
+
+}
+.barra_de_navegacion__menu-vertical{
+    display: block;
+    color: antiquewhite;
+    
+}
+.barra_de_navegacion__lista_vertical{
+    display: block;
+    text-align: center;
+}
+.barra_de_navegacion_lateral__opciones--text{
+    margin-top: 2em;
 }
 

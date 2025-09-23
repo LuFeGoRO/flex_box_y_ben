@@ -1,0 +1,26 @@
+.lista_de_tareas{ 
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(12, 56, 50);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0px 15px 0px 15px;
+    justify-content: center;
+}
+.lista_de_tareas__titulo{
+    color: aliceblue; 
+    background-color: rgb(196, 44, 44) ;
+ }
+.lista{
+    display: flex;
+    justify-content: center;
+}
+.lista__orden{
+    display: flex;
+
+}
+.lista__opciones{
+    color: rgb(23, 235, 94);
+    list-style-type: circle;
+
+}

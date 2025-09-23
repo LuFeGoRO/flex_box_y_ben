@@ -5,6 +5,9 @@
 @import url(componentes/galeria.css);
 @import url(componentes/fomularios.css);
 @import url(componentes/encabezado.css);
+@import url(componentes/listas_de_tareas.css);
+@import url(componentes/testimonial.css);
+@import url(componentes/footer.css);
 *{
     margin: 0;
     padding: 0;
@@ -58,6 +61,35 @@ main {
     gap: 0.5em;
     justify-content: center;
 }
+.seccion_seis{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: max-content;
+    border: 2px dashed black;
+    gap: 0.5em;
+    justify-content: center;
+}
+.seccion_siete{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: max-content;
+    border: 2px dashed black;
+    gap: 0.5em;
+    justify-content: center;
+}
+.seccion_ocho{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: max-content;
+    border: 2px dashed black;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+
 
 
 

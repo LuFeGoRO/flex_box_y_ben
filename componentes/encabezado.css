@@ -3,6 +3,8 @@
     background-color: var(--main-color);
     height: max-content;
     width: 100vw;
+    justify-content: center;
+    gap:1em;
 }
  .encabezado__imagen{
     width: 2em;

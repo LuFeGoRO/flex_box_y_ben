@@ -38,7 +38,7 @@
     padding: 10px;
     border-radius: 0px 30px 0px 30px;
 }
-.boton__titulo--estilo{
+.boton__titulo{
     color: var(--titulos_h2-color);
     border: 1px solid rgb(88, 34, 2);
     border-radius: 12px;

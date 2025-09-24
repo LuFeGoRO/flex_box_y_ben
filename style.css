@@ -8,6 +8,7 @@
 @import url(componentes/listas_de_tareas.css);
 @import url(componentes/testimonial.css);
 @import url(componentes/footer.css);
+@import url(componentes/targetas_de_venta.css);
 *{
     margin: 0;
     padding: 0;
@@ -37,7 +38,7 @@ main {
 }
 .seccion_tres{
     display: flex;
-    flex-wrap: wrap;
+    
     width: 100vw;
     height: max-content;
     border: 2px dashed black;
@@ -86,6 +87,16 @@ main {
     height: max-content;
     border: 2px dashed black;
     gap: 0.5em;
+    justify-content: center;
+}
+.seccion_nueve{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100vw;
+    height: max-content;
+    border: 2px dashed black;
+    gap: 2em;
     justify-content: center;
 }
 

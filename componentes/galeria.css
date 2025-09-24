@@ -3,18 +3,26 @@
     flex-wrap: wrap;
     width: 100vw;
     height: max-content;
-    gap: 1em;
+    gap: 0.5em;
+
 }
 
 .fotos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: auto;
     height: auto;
+    flex: 1;
     
 }
 
 .fotos__imagenes{
-    width: 20vw;
-    height: 20vh;
+    object-fit: contain;
+    width: 10em;
+    height: 10em;
+}
+.fotos__imagenes--tamaño{
+    width: 5em;
+    height: 10em;
+    margin-left: 0.5em;
 }

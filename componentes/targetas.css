@@ -1,4 +1,7 @@
 .targeta{
+    /* dispongo el bloque en flex, con direccion en columna
+    ancho auto y altura auto, margen inferior
+    y estilo */
     display: flex;
     flex-direction: column;
     width: auto;
@@ -9,6 +12,7 @@
 }
 
 .logo{
+    /*dispongo el bloque en flex, con ancho al 100% y contenido centrado  */
     display: flex;
     width: 100%;
     justify-content: center;
@@ -16,12 +20,15 @@
     
 }
 .logo__imagen--tamaño{ 
+    /* le doy un ancho y un alto
+    y estilos */
     width: 10em;
     height: 15em;
     filter: drop-shadow(2px 10px 5px rgb(0, 0, 0));
     
 }
 .titulo{
+    /* dispongo el bloque en flex, centro el contenido, doy un relleno fijo y aplico estilos */
     display: flex;
     justify-content: center;
     border-radius: 0px 30px 0px 30px;
@@ -32,6 +39,7 @@
 }
 
 .boton{
+    /* boton en flex, contenido centrado, relleno fijo y estilos */
     display: flex;
     justify-content: center;
     background-color: var(--secundary-color);
@@ -39,6 +47,7 @@
     border-radius: 0px 30px 0px 30px;
 }
 .boton__titulo{
+    /* estilos del boton */
     color: var(--titulos_h2-color);
     border: 1px solid rgb(88, 34, 2);
     border-radius: 12px;

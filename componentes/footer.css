@@ -37,6 +37,6 @@
 }
 
 .footer__li{
-    
+    /* doy un margen inferior al pie de pagina */
     margin-bottom: 0.5em;
 }

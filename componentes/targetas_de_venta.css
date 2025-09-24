@@ -1,5 +1,7 @@
 .pins{ 
-     display: flex;
+    /* estableco flex con direccion en columna, ancho auto, alto segun el contenido
+    un margen superio y estilos */
+    display: flex;
     flex-direction: column;
     width: auto;
     height: max-content;
@@ -11,6 +13,7 @@
 
 }
 .pins__titulo{
+    /* centro el texto y estilos */
     text-align: center;
     background-color: rgb(15, 44, 11);
     color: white;
@@ -19,37 +22,43 @@
 
 }
 .pins_img{
+    /* fiho las imagenes y soy estilos */
     object-fit: contain;
      width: 10em;
     height: 15em;
     filter: drop-shadow(2px 10px 5px rgb(0, 0, 0));
 }
 .pins__texto{ 
-     text-align: center;
+    /* centro el texto y doy estilos */
+    text-align: center;
     background-color: rgb(25, 99, 15);
     color: white;
     border-radius: 30px 30px 0px 0px ;
 }
 .pins__texto--facebook{ 
-     text-align: center;
+    /* modifico el elemento */
+    text-align: center;
     background-color: rgb(18, 73, 190);
     color: white;
     border-radius: 30px 30px 0px 0px ;
 }
 .pins__texto--git_hub{ 
-     text-align: center;
+    /* modifico el elemento */
+    text-align: center;
     background-color: rgb(49, 47, 47);
     color: white;
     border-radius: 30px 30px 0px 0px ;
 }
 .pnis__precio{
-     text-align: center;
+    /* centro el texto, doy un margen inferior y doy estilos */
+    text-align: center;
     background-color: rgb(53, 223, 31);
     color: white;
     margin-bottom: 0.5em;
     border-radius: 0px  0px 30px 30px;
 }
 .boton__titulo--stilo{
+    /* reuso un boton y lo modifico */
     color: whitesmoke;
     border: 1px solid rgb(82, 31, 223);
     border-radius: 12px;

@@ -1,4 +1,6 @@
 .testimonial{
+    /* dispongo el bloque en flex, centro los objetos, doy separacion interna y un ancho fijo
+    con un margen relativo */
     display:flex;
     align-items: center;
     gap: 1rem;
@@ -8,27 +10,31 @@
     margin: 2em;;
 }
 .testimonial__avatar{
+    /* estilos del avatar */
     background-color: rgb(189, 198, 206);
     width: 50%;
-     border-radius: 50%;
+    border-radius: 50%;
     
 }
 .testimonial_imagen{
-     width: 100%;
-     height: 100%;
-    
-     object-fit: cover;
+    /* medidas de la imagen y obejtos fijos */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .testimonial__contenido{
+    /* establesco el elemento en flex y con direcion en columna */
     display: flex;
     flex-direction: column;
 }
 .testimonial__texto{
+    /* estilos */
     font-size: 1rem;
     color: bisque;
     margin: 0 0 0.5rem;
 }
 .testimonial__persona{
+    /* estilos */
     font-size: 0.875rem;
     font-weight: bold;
     color: #555;

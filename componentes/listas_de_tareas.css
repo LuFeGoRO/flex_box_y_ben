@@ -1,4 +1,6 @@
 .lista_de_tareas{ 
+    /* establesco el elemento en flex, con direccion en columna, doy un margen inferior
+    y alto, contenido centrado, y estilos */
     display: flex;
     flex-direction: column;
     background-color: rgb(12, 56, 50);
@@ -8,18 +10,22 @@
     justify-content: center;
 }
 .lista_de_tareas__titulo{
+    /* estilos */
     color: aliceblue; 
     background-color: rgb(196, 44, 44) ;
- }
+}
 .lista{
+    /* establesco el flex y cento el contenido */
     display: flex;
     justify-content: center;
 }
 .lista__orden{
+    /* establesco el flex */
     display: flex;
 
 }
 .lista__opciones{
+    /* estilos*/
     color: rgb(23, 235, 94);
     list-style-type: circle;
 

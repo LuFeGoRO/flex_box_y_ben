@@ -1,4 +1,6 @@
 .galeria {
+    /* dispongo al elemento en flex, para que brinquen las imagenes, ancho al maximo de la pantalla
+    alto segun el contenido, separacion interna */
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
@@ -8,6 +10,7 @@
 }
 
 .fotos {
+    /* dispongo en flex,  da un orden y estableco la secuencia*/
     display: flex;
     flex-direction: row;
     width: auto;
@@ -17,11 +20,13 @@
 }
 
 .fotos__imagenes{
+    /* fijo el conenido, establezco el tamaño */
     object-fit: contain;
     width: 10em;
     height: 10em;
 }
 .fotos__imagenes--tamaño{
+    /* fijo el conenido, establezco el tamaño  para una imagen en expesifico */
     width: 5em;
     height: 10em;
     margin-left: 0.5em;

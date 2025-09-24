@@ -23,12 +23,20 @@ main {
     height: 100vh;
     gap: 1em;
 }
+/* determono el tamaño, lo vuelvo flexible y
+ le establesco una altura y un borde punteado 
+ para diferenciar esta seccion de las otras*/
 .seccion_primaria{
     width: 100%;
     display: flex;
     height: 50%;
     border: 2px dashed black;
 }
+/* establesco la seccion como flex, ajusto los contenedores de padre para que
+brinquen hacia abajjo al chocar con el margen  le doy un ancho del 100 de
+ ancho de pantalla un borde punteando y a 
+ todo elemento dentro de este flex una separacion
+*/
 .seccion_secundaria{
     display: flex;
     flex-wrap: wrap;
@@ -38,14 +46,20 @@ main {
     gap: 0.5em;
 }
 .seccion_tres{
+    /* establexco esta seeccion como flex, con un ancho del maximo de la pantalla
+    un alto del maximo del contenido
+    un bord punteado y una separacion interna de sus elementos */
     display: flex;
-    
     width: 100vw;
     height: max-content;
     border: 2px dashed black;
     gap: 0.5em;
 }
 .seccion_cuatro{
+    /* establesco la seccion como flex, hago que sus elemntos brinquen 
+    al chocar el margen, un sentido de orden, un ancho del total de la pantalla,una altura
+    del maximo del contenido borde punteado, separacion interna de sus
+    elementis y conetnido centrado  */
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
@@ -55,6 +69,10 @@ main {
     justify-content: center;
 }
 .seccion_cinco{
+    /* establesco la seccion como flex, hago que sus elemntos brinquen 
+    al chocar el margen, un sentido de orden, un ancho del total de la pantalla,una altura
+    del maximo del contenido borde punteado, separacion interna de sus
+    elementis y conetnido centrado  */
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
@@ -64,6 +82,10 @@ main {
     justify-content: center;
 }
 .seccion_seis{
+    /* establesco la seccion como flex, hago que sus elemntos brinquen 
+    al chocar el margen,un sentido de orden, un ancho del total de la pantalla,una altura
+    del maximo del contenido borde punteado, separacion interna de sus
+    elementis y conetnido centrado  */
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
@@ -73,6 +95,10 @@ main {
     justify-content: center;
 }
 .seccion_siete{
+    /* establesco la seccion como flex, hago que sus elemntos brinquen 
+    al chocar el margen, un sentido de orden, un ancho del total de la pantalla,una altura
+    del maximo del contenido borde punteado, separacion interna de sus
+    elementis y conetnido centrado  */
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
@@ -82,6 +108,10 @@ main {
     justify-content: center;
 }
 .seccion_ocho{
+    /* establesco la seccion como flex, hago que sus elemntos brinquen 
+    al chocar el margen, un sentido de orden, un ancho del total de la pantalla,una altura
+    del maximo del contenido borde punteado, separacion interna de sus
+    elementis y conetnido centrado  */
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
@@ -91,6 +121,10 @@ main {
     justify-content: center;
 }
 .seccion_nueve{
+    /* establesco la seccion como flex, hago que sus elemntos brinquen 
+    al chocar el margen, un sentido de orden, un ancho del total de la pantalla,una altura
+    del maximo del contenido borde punteado, separacion interna de sus
+    elementis y conetnido centrado  */
     display: flex;
     flex-wrap: wrap;
     flex: 1;
@@ -101,6 +135,10 @@ main {
     justify-content: center;
 }
 .seccion_dies{
+    /* establesco la seccion como flex, hago que sus elemntos brinquen 
+    al chocar el margen, un sentido de orden, un ancho del total de la pantalla,una altura
+    del maximo del contenido borde punteado, separacion interna de sus
+    elementis y conetnido centrado  */
     display: flex;
     flex-wrap: wrap;
     flex: 1;

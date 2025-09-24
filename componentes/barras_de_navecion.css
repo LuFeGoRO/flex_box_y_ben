@@ -1,3 +1,5 @@
+/* estbablesco el contenido de la barra en forma horizontal, doy un ancho del 
+total de la pantallan una altura de 5 vh centro el contenido y doy estilo */
 .barra_de_navegacion {
     display: flex;
     width: 100%;
@@ -7,23 +9,26 @@
     color: aliceblue;
     border-radius: 0.1px 0px 0px 12px;
 }
+/* el menu se hace flex */
 .menu-horizontal {
     display: flex;
 }
 
-
+/* quito decoraciones y centro el texto */
 .barra_de_navegacion__lista{
     list-style: none;
     text-align: center;
 
 }
+/* lo hago felx, doy separacion, centro el texto */
 .barra_de_navegacion__lista{
     display: flex;
     gap: 1em;
     text-align: center;
 
 }
-.barra_de_navegacion__opciones--text{
+/* le doy al tamalo de letra un exqivalente al 100% del contenedor */
+.opciones__text{
     font-size: 100%;
 
 }

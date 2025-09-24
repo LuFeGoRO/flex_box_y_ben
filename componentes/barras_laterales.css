@@ -1,5 +1,9 @@
 .barra_de_navegacion_vertical {
-    display: inline-block;
+    /* dispongo al elemento en flex, con direccion en columna
+    le doy un ancho de 10% y alt lineal del 100% de su contenedor
+    justifico al centro y doy diseño */
+    display: flex;
+    flex-direction: column;
     width: 10%;
     line-height: 100%;
     justify-content: center;
@@ -8,24 +12,31 @@
 
 }
 .barra_de_navegacion__lista_vertical{
+    /* quito decoradores, centro el texto y le soy un tamaño del 90% de su contenedor */
     list-style: none;
     font-size: 90%;
     text-align: center;
 
 }
 .barra_de_navegacion__menu-vertical{
-    display: block;
+    /* dispongo al elemento en flex, con direccion en columna y le doy estilos */
+    display: flex;
+    flex-direction: column;
     color: antiquewhite;
     
 }
 .barra_de_navegacion__lista_vertical{
-    display: block;
+    /* dispongo al elemento en flex, con direccion en columna y centro el texto*/
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
-.barra_de_navegacion_lateral__opciones--text{
+.opciones__text--lateral{
+    /* modifico las opciones laterales y le doy un margen superior*/
     margin-top: 2em;
 }
 .barra_de_navegacion__titulo{
+    /* centro el texto, doy una medida relativa al tamaño de letra y esilos */
     text-align: center;
     font-size: 1em;
     color: var(--titulos_h2-color);

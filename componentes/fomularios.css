@@ -1,12 +1,13 @@
 .acceso{
+    /* estableco el elemento en flex con un ancho del tamañao de la pantalla, altura maxima
+    al contenido y separacion interno*/
     display: flex;
     width: 100vw;
     height: max-content;
-    border: 2px dashed black;
     gap: 1em;
 }
 .formulario{
-    
+    /* estableco el elemento en flex, con direccion en columna, separacion interna y un relleno */
     display: flex;
     flex-direction: column;
     gap: 2em;
@@ -15,20 +16,25 @@
 }
 
 .formulario__usuario{
+    /* relleno al imput */
     padding: 10px;
 }
 .formulario__contraceña{
+    /* relleno al imput */
     padding: 10px;
 }
 .formulario__rango{
+    /* relleno al imput */
     padding: 5px;
 }
 
 .titulo--fondo{
+    /* estilos */
     background-color: rgb(59, 179, 139);
     color: aliceblue;
 }
 .boton__titulo--estilo{
+    /* estilos */
     background-color: rgb(59, 179, 139);
     color: aliceblue;
 }

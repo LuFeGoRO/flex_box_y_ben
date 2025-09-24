@@ -1,15 +1,22 @@
-.encabezado{
-    display: flex;
-    background-color: var(--main-color);
-    height: max-content;
-    width: 100vw;
-    justify-content: center;
-    gap:1em;
+.encabezado {
+   /* dispongo el elemento en flex, una altura al maximo del contenido
+   ancho del tamaño de la pantalla, contenido centrado, separacion interna de los elementos
+   y estilos */
+   display: flex;
+   background-color: var(--main-color);
+   height: max-content;
+   width: 100vw;
+   justify-content: center;
+   gap: 1em;
 }
- .encabezado__imagen{
-    width: 2em;
-    height: 2em;
- }
- .encabezado__titulo{
-    color: aliceblue;
- }
+
+.encabezado__imagen {
+   /* establesco un ancho y alto en una medida relativa */
+   width: 2em;
+   height: 2em;
+}
+
+.encabezado__titulo {
+   /* estilos */
+   color: aliceblue;
+}

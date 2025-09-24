@@ -1,4 +1,6 @@
 .footer{
+    /* estableco un ancho del tamaño de la pagina, un alto segun el contenido, dispongo el flex
+    centro el contenido, separacion interna, relleno y estilos */
     width: 100vw;
     height: max-content;
     display: flex;
@@ -9,26 +11,32 @@
     color:blueviolet;
 }
 .foter__columna{
+    /* doy un orden secuencial al elementos */
     flex: 1;
 }
 .footer__titulo{
+    /* doy un tamaño de letra y un margen inferior */
     font-size: 1.2em;
     margin-bottom: 1.2em;
 }
 .footer__text{
+    /* doy un tamaño de letra y una altura lineal */
     font-size: 1em;
     line-height: 1.4;
 }
 .footer__listas, .footer__social{
+    /* quito decoradores de las listas, quito el margen y el relleno interno */
     list-style: none;
     padding: 0;
     margin: 0;
 }
 .footer__listas a, .footer__social a{
+    /* quito decoradores de las listas y esilos */
     text-decoration: none;
     color: blueviolet;
 }
 
 .footer__li{
+    
     margin-bottom: 0.5em;
 }

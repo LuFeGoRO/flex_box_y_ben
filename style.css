@@ -9,6 +9,7 @@
 @import url(componentes/testimonial.css);
 @import url(componentes/footer.css);
 @import url(componentes/targetas_de_venta.css);
+@import url(componentes/sidebar.css);
 *{
     margin: 0;
     padding: 0;
@@ -90,6 +91,16 @@ main {
     justify-content: center;
 }
 .seccion_nueve{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100vw;
+    height: max-content;
+    border: 2px dashed black;
+    gap: 2em;
+    justify-content: center;
+}
+.seccion_dies{
     display: flex;
     flex-wrap: wrap;
     flex: 1;

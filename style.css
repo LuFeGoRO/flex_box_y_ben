@@ -11,12 +11,15 @@
 @import url(componentes/targetas_de_venta.css);
 @import url(componentes/sidebar.css);
 *{
+    /* reseteo la pagina */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 main {
+    /* establesco el prinsipal como flex con direccion el columna y medidas de ancho y alto del tamaño de la pantalla y relleno interno
+     */
     display: flex;
     flex-direction: column;
     width: 100vw;

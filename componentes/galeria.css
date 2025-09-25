@@ -16,7 +16,6 @@
     width: auto;
     height: auto;
     flex: 1;
-    
 }
 
 .fotos__imagenes{
@@ -27,7 +26,7 @@
 }
 .fotos__imagenes--tamaño{
     /* fijo el conenido, establezco el tamaño  para una imagen en expesifico */
-    width: 5em;
+    width: 5em; 
     height: 10em;
     margin-left: 0.5em;
 }

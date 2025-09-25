@@ -39,7 +39,7 @@ main {
 brinquen hacia abajjo al chocar con el margen  le doy un ancho del 100 de
 ancho de pantalla un borde punteando y a 
 */
-/* le puse justify-content:center, para centrar las tarjetas */
+/*Colaborador Tachobo:le puse justify-content:center, para centrar las tarjetas */
 .seccion_secundaria{
     display: flex;
     flex-wrap: wrap;
@@ -138,7 +138,7 @@ ancho de pantalla un borde punteando y a
     gap: 2em;
     justify-content: center;
 }
-.seccion_dies{
+.seccion_diez{
     /* establesco la seccion como flex, hago que sus elemntos brinquen 
     al chocar el margen, un sentido de orden, un ancho del total de la pantalla,una altura
     del maximo del contenido borde punteado, separacion interna de sus

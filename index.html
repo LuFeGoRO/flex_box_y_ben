@@ -77,14 +77,16 @@
                 <div class="fotos"><img src="imagenes/squirrel-9616797_640.jpg" alt="" class="fotos__imagenes"></div>
             </div>
         </section>
+        <!-- Colaborador Tachobo: le corregi un error ortografico, y le puse que la informacion
+        de acceso sea obligatoria -->
         <section class="seccion_cuatro">
-            <div clas="acceso">
+            <div clas="acceso"> <!-- no se porque madres si le pongo la s que le falta se daña -->
                 <h2 class="titulo titulo--fondo">formulario de ingreso</h2>
                 <form action="" class="formulario">
                     <input type="text" name="usuario" id="usuario" placeholder="dijita tu usuario"
-                        class="formulario__usuario">
-                    <input type="password" name="contraceña" placeholder="ingresa tu contraceña"
-                        class="formulario__contraceña">
+                        class="formulario__usuario" required>
+                    <input type="password" name="contraseña" id="contraseña" placeholder="ingresa tu contrasena"
+                        class="formulario__contraseña" required>
                     <select name="rango" id="rango" class="formulario__rango">
                         <option>seleciona tu rango</option>
                         <option value="usuario">operario</option>
@@ -111,17 +113,18 @@
                 <div class="fotos"><img src="imagenes/norway-9803687_640.jpg" alt="" class="fotos__imagenes"></div>
                 <div class="fotos"><img src="imagenes/squirrel-9616797_640.jpg" alt="" class="fotos__imagenes"></div>
             </div>
-
+            <!-- Tachobo colaborador: le añadi checkbox a la lista de tareas
+            con input type checkbox y label -->
         </section>
         <section class="seccion_seis">
             <div class="lista_de_tareas">
                 <h2 class="lista_de_tareas__titulo">lista de tareas</h2>
                 <nav class="lista">
                     <ul class="listas__orden">
-                        <li class="lista__opciones">tarea 1</li>
-                        <li class="lista__opciones">tarea 2</li>
-                        <li class="lista__opciones">tarea 3</li>
-                        <li class="lista__opciones">tarea 4</li>
+                        <li class="lista__opciones"><input type="checkbox" id="t1"><label for="t1">tarea 1</label></li>
+                        <li class="lista__opciones"><input type="checkbox" id="t2"><label for="t2">tarea 2</label></li>
+                        <li class="lista__opciones"><input type="checkbox" id="t3"><label for="t3">tarea 3</label></li>
+                        <li class="lista__opciones"><input type="checkbox" id="t4"><label for="t4">tarea 4</label></li>
                     </ul>
                 </nav>
             </div>
@@ -155,20 +158,24 @@
                     </p>
                 </div>
             </div>
+            <!-- Colaborador Tachobo: le corregi 
+            unos errores ortograficos y el foter, lo cambie por footer
+            y clas por class, con estos cambios ya se distribuye 
+            equitativamente el espacio entre columnas  -->
             <footer class="footer">
-                <div clas="foter__columna">
+                <div class="footer__columna">
                     <h3 class="footer__titulo">Nosotros</h3>
                     <p class="footer__text">empresa que brinda servicion y soluciones tecnologicas</p>
                 </div>
-                <div clas="foter__columna">
+                <div class="footer__columna">
                     <h3 class="footer__titulo">Enlaces</h3>
                     <ul class="footer__listas">
                         <li class="footer__li"><a href="#">Inicio</a></li>
-                        <li class="footer__li"><a href="#">Servivios</a></li>
-                        <li class="footer__li"><a href="#">Cotacto</a></li>
+                        <li class="footer__li"><a href="#">Servicios</a></li>
+                        <li class="footer__li"><a href="#">Contacto</a></li>
                     </ul>
                 </div>
-                <div clas="foter__columna">
+                <div class="footer__columna">
                     <h3 class="footer__titulo">Siguenos</h3>
                     <ul class="footer__social">
                         <li class="footer__li"><a href="#">Facebook</a></li>
@@ -176,9 +183,8 @@
                         <li class="footer__li"><a href="#">X</a></li>
                     </ul>
                 </div>
-
-
             </footer>
+
         </section>
         <section class="seccion_nueve">
             <div class="pins">
@@ -209,9 +215,9 @@
                 <p class="pnis__precio">$1500</p>
                 <button class="boton__titulo  boton__titulo--stilo">comprar</button>
             </div>
-
         </section>
-        <section class="seccion_dies">
+        
+        <section class="seccion_diez">
             <div class="sidebar_caja">
                 <h2 class="titulo titulo--sidebar">sidebar</h2>
                 <nav class="sidebar">
@@ -227,12 +233,8 @@
                         </li>
                     </ul>
                 </nav>
-
             </div>
-
-
         </section>
-
     </main>
 </body>
 

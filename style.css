@@ -37,8 +37,7 @@ main {
 }
 /* establesco la seccion como flex, ajusto los contenedores de padre para que
 brinquen hacia abajjo al chocar con el margen  le doy un ancho del 100 de
- ancho de pantalla un borde punteando y a 
- todo elemento dentro de este flex una separacion
+ancho de pantalla un borde punteando y a 
 */
 .seccion_secundaria{
     display: flex;

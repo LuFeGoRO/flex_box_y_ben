@@ -1,7 +1,7 @@
 .footer{
     /* estableco un ancho del tamaño de la pagina, un alto segun el contenido, dispongo el flex
     centro el contenido, separacion interna, relleno y estilos */
-    width: 100vw;
+    width: 100%;
     height: max-content;
     display: flex;
     justify-content: space-between;
@@ -10,9 +10,13 @@
     padding: 2rem;
     color:blueviolet;
 }
-.foter__columna{
+/* Colaborador Tachobo: le corregi un error ortografico en foter, lo cambie por 
+footer, y le puse text-align:center para que el texto quede centrado
+en su columna */
+.footer__columna{
     /* doy un orden secuencial al elementos */
     flex: 1;
+    text-align: center;
 }
 .footer__titulo{
     /* doy un tamaño de letra y un margen inferior */

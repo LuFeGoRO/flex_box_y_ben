@@ -24,9 +24,10 @@
     display: flex;
 
 }
+/* quite el punto de las listas */
 .lista__opciones{
     /* estilos*/
     color: rgb(23, 235, 94);
-    list-style-type: circle;
+    list-style-type: none;
 
 }

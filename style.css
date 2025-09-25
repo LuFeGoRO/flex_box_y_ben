@@ -39,6 +39,7 @@ main {
 brinquen hacia abajjo al chocar con el margen  le doy un ancho del 100 de
 ancho de pantalla un borde punteando y a 
 */
+/* le puse justify-content:center, para centrar las tarjetas */
 .seccion_secundaria{
     display: flex;
     flex-wrap: wrap;
@@ -46,6 +47,7 @@ ancho de pantalla un borde punteando y a
     height: max-content;
     border: 2px dashed black;
     gap: 0.5em;
+    justify-content: center;
 }
 .seccion_tres{
     /* establexco esta seeccion como flex, con un ancho del maximo de la pantalla

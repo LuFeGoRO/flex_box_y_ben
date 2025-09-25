@@ -32,5 +32,11 @@ total de la pantallan una altura de 5 vh centro el contenido y doy estilo */
     font-size: 100%;
 
 }
+/* Colaborador Tachobo:le corregi esta parte del diseño para que al pasar el cursor sea pointer y cambie de 
+color */
+.barra_de_navegacion__menu-horizontal ul li:hover  {
+    color: aquamarine; 
+    cursor: pointer;
+}
 
 

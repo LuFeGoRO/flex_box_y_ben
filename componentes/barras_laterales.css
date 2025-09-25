@@ -41,4 +41,8 @@
     font-size: 1em;
     color: var(--titulos_h2-color);
 }
-
+/* Soy el Colaborador:Tambien aplique el mismo cambio del la barra de navegacion horizontal */
+.barra_de_navegacion__menu-vertical ul li:hover {
+    color: aqua;
+    cursor: pointer;
+}
